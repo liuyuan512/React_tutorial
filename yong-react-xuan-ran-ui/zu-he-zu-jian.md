@@ -8,3 +8,6 @@ React使用组件来封装界面模块，整个界面就是一个大组件，开
 
 如下图，整个页面是一个大的组件，然后再将其拆分成很多小的组件。组件机制加上JSX的语法，让你在构造界面时就像有一套符合项目需求的HTML标记，界面定义变得非常直观。
 ![](/assets/component.png)
+
+###参考
+[组件](http://www.infoq.com/cn/articles/react-jsx-and-component) from InfoQ
