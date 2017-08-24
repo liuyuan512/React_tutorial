@@ -17,7 +17,7 @@
 * [State Management](state-management.md)
   * [简介](state-management/jian-jie.md)
   * [props](state-management/props.md)
-  * Stateless Functional Component
+  * [Stateless Functional Component](state-management/stateless-functional-component.md)
   * State
   * setState
   * PropTypes
