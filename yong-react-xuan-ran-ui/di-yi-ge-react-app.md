@@ -19,3 +19,12 @@ npm install -g create-react-app
 
 
 {% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/WmYSd7OEjMM.mp4{% endvideo%}
+
+
+#小结
+
+Facebook的创建`create-react-app`是支持React应用程序的命令行工具。使用它，不需要安装或配置Webpack或像Babel这样的编译器。这些步骤全都由`create-react-app`帮我们做好了
+下面的链接提供了更多关于`create-react-app`的信息
+- [create-react-app](https://github.com/facebookincubator/create-react-app)on GitHub
+- [create-react-app Release Post](https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html)from the React blog
+- [Updates to create-react-app](https://facebook.github.io/react/blog/2017/05/18/whats-new-in-create-react-app.html)from the React blog
