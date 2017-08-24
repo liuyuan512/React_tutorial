@@ -16,7 +16,7 @@
   * [小结](yong-react-xuan-ran-ui/xiao-jie.md)
 * [状态管理](zhuang-tai-guan-li.md)
   * [简介](jian-jie.md)
-  * [用Props向组件传递数据](props.md)
+  * [Props](props.md)
   * [函数式组件](han-shu-shi-zu-jian.md)
   * State
   * setState
