@@ -23,7 +23,7 @@
   * PropTypes
   * Controlled Components
   * [小结](xiao-jie.md)
-  * 撒旦
+  * [撒旦](sa-dan.md)
 * [生命周期事件](sheng-ming-zhou-qi-shi-jian.md)
 * [React Router](react-router.md)
   * [简介](react-router/jian-jie.md)
