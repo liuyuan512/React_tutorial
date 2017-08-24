@@ -13,5 +13,5 @@
   * [JSX](yong-react-xuan-ran-ui/jsx.md)
   * [第一个React App](yong-react-xuan-ran-ui/di-yi-ge-react-app.md)
   * [组件](yong-react-xuan-ran-ui/zu-he-zu-jian.md)
-  * 小结
+  * [小结](yong-react-xuan-ran-ui/xiao-jie.md)
 
