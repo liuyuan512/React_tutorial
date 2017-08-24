@@ -58,3 +58,19 @@ const message = (
   </div>
 );
 ```
+
+这个例子就展示了最后返回的是一个`<div>`但是有很多子元素嵌套在里面。下面的这个写法就会引发一个错误
+```js
+const message = (
+  <h1>All About JSX:</h1>
+  <ul>
+    <li>JSX</li>
+    <li>is</li>
+    <li>awesome!</li>
+  </ul>
+);
+```
+这个例子中，我们有两个兄弟元素在根位置(<h1>和<ul>)。这将会引发一个错误
+>Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag
+
+JSX只是对`.createElement()`的语法扩展，由于`.createElement()`只能将一个标签名(字符串类型的)作为第一个参数，所以JSX也只能返回一个根元素。
