@@ -1,5 +1,5 @@
 1. {% vimeo %}Oru-qw-Faac{% endvimeo %}
-2. {% youtube %}https://www.youtube.com/watch?v=G448nhrkUHc{% endyoutube %}
+2. {% youtube %}https://youtu.be/sqpQahFD-go{% endyoutube %}
 
 
 
