@@ -73,4 +73,9 @@ const myBio = React.createElement(
     'My name is Michael, and I love porcupines.'
 );
 ```
-![](/assets/Screen Shot 2017-08-24 at 10.20.15.png)
+>- 一个指向DOM节点的指针
+ - 一个DOM节点
+ - 一个JavaScript对象
+ - 一个JavaScript类
+ 
+   
