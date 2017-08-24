@@ -17,7 +17,7 @@
 * [状态管理](zhuang-tai-guan-li.md)
   * [简介](jian-jie.md)
   * [函数式组件](han-shu-shi-zu-jian.md)
-  * State
+  * [State](state.md)
   * setState
   * PropTypes
   * [Controlled Components](controlled-components.md)
@@ -32,4 +32,5 @@
   * [Route](react-router/route.md)
 * [State Management](state-management.md)
   * [简介](state-management/jian-jie.md)
+  * [props](state-management/props.md)
 
