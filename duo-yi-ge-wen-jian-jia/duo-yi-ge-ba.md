@@ -35,4 +35,4 @@
 这里你是运行了两个服务器
 - 前端:在端口**port 3000**(with `npm start` or `yarn start`)
 - 后端: 在端口**port 5001 **(with `node server.js`)
-确保两个服务器都在运行##发生了什么？？
+确保两个服务器都在运行
