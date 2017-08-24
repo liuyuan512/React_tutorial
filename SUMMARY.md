@@ -14,6 +14,9 @@
   * [第一个React App](yong-react-xuan-ran-ui/di-yi-ge-react-app.md)
   * [组件](yong-react-xuan-ran-ui/zu-he-zu-jian.md)
   * [小结](yong-react-xuan-ran-ui/xiao-jie.md)
+* [State Management](state-management.md)
+  * [简介](state-management/jian-jie.md)
+  * [props](state-management/props.md)
 * [生命周期事件](sheng-ming-zhou-qi-shi-jian.md)
 * [React Router](react-router.md)
   * [简介](react-router/jian-jie.md)
@@ -21,7 +24,4 @@
   * BrowserRouter
   * Link
   * [Route](react-router/route.md)
-* [State Management](state-management.md)
-  * [简介](state-management/jian-jie.md)
-  * [props](state-management/props.md)
 
