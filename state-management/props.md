@@ -55,8 +55,11 @@ const contacts = [
 >如果你电脑上的程序没有政策运行，检查你的两个服务器是否都有打开
 
 >###练习
- 你如何向一个组件传递两个不容的props?
-
+> 你如何向一个组件传递两个不容的props?
+> - `<Clock {new Data().getTime()} />`
+> - `<Clock this.props={new Data().getTime()} />`
+> - `<Clock currentTime={new Data().getTime()} />`
+> - `<Clock this.currentTime={new Date().getTime()} />`
 
 ##小结
 `prop`是你向组件传递传递的任何输入，就像HTML的属性一样，`prop`名字和值可以被添加到组件里。
