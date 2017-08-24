@@ -6,7 +6,7 @@
 
 #`.createElement()`只能返回一个根元素
 因为`React.createElement( /* type */, /* props */, /* content */ )`只能创建一种特定的React元素，通常就传递一个`<div>`或者`<span>`标签来表示React元素的类型，这里的`content`属性其实可以是任何内容，也就是说可以再嵌套一个React元素
-```
+```js
 const element = React.createElement('div', null,
   React.createElement('strong', null, 'Hello world!')
 );
@@ -23,7 +23,7 @@ JSX的由来
 
 #练习
 >给一个JSX：
-```
+```js
 const greeting = (
   <div className='greeting'>
     <h2>Hello world!</h2>
@@ -32,7 +32,7 @@ const greeting = (
 ```
 
 >如果我们想要输出同样的HTML，那么空白处需要依次填写什么内容?
-```
+```js
 const greeting = React.createElement(
   __1__,
   { className: 'greeting' },
@@ -41,5 +41,20 @@ const greeting = React.createElement(
     {},
     __3__
   )
+);
+```
+
+#JSX也返回一个唯一的根元素
+当用JSX的时候，要牢记它最后返回的必须是一个元素。这个元素可以有很多子元素，但是必须都得包裹在一个根元素里(比如<div>和<span>)，看这个例子
+```js
+const message = (
+  <div>
+    <h1>All About JSX:</h1>
+    <ul>
+      <li>JSX</li>
+      <li>is</li>
+      <li>awesome!</li>
+    </ul>
+  </div>
 );
 ```
