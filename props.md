@@ -50,4 +50,37 @@ const contacts = [
 - this.currentTime
 - this.props.currentTime
 
+{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/mnIuUk9cexA.mp4{% endvideo %}
+[此视频中修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/43add2a640214483b00d9ca491990bb86104501e)
 
+>如果你电脑上的程序没有政策运行，检查你的两个服务器是否都有打开
+
+>###练习
+ 你如何向一个组件传递两个不容的props?
+ - `<Clock time={Date.now()} zone='MST' />`
+ - `<Clock props={{time:Date.now(),zone='MST'}} />`
+ - `<Clock [time=Date.now(),zone='MST'] />`
+ - `<Clock props={[Date.now(),'MST']}>`
+
+##小结
+`prop`是你向组件传递传递的任何输入，就像HTML的属性一样，`prop`名字和值可以被添加到组件里。
+
+```js
+// passing a prop to a component
+<LogoutButton text='Wanna log out?' />
+```
+在这个例子里，`text`是`prop`，字符串`'Wanna log out?'`是value.
+
+所有的props都被存在了`this.props`的对象里。所以从组件内部访问这个`text prop`,得这样表达`this.props.text`:
+
+```
+// access the prop inside the component
+...
+render() {
+    return <div>{this.props.text}</div>
+}
+...
+```
+
+#延伸阅读
+- [Components and Props](https://facebook.github.io/react/docs/components-and-props.html) from the React Docs
