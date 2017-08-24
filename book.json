@@ -1,3 +1,3 @@
 {
-    "plugins": ["html5-video","video-player"]
+    "plugins": ["html5-video"]
 }
