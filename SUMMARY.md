@@ -20,7 +20,7 @@
   * State
   * setState
   * PropTypes
-  * Controlled Components
+  * [Controlled Components](controlled-components.md)
   * [小结](xiao-jie.md)
   * [撒旦](sa-dan.md)
 * [生命周期事件](sheng-ming-zhou-qi-shi-jian.md)
@@ -30,4 +30,6 @@
   * BrowserRouter
   * Link
   * [Route](react-router/route.md)
+* [State Management](state-management.md)
+  * [简介](state-management/jian-jie.md)
 
