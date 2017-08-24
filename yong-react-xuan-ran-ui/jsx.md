@@ -80,7 +80,23 @@ JSX只是对`.createElement()`的语法扩展，由于`.createElement()`只能�
 由于React的主要作用就是创建我们应用的UI，所以在组件类里唯一要求实现的就是`render()`函数
 
 {% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/qHjr2ndg2UA.mp4{% endvideo %}
+#在React中声明组件
+在上个视频中，我们这样定义`ContactList`
+```js
+class ContactList extends React.Component {
+// ...
+}
+```
+也就是说，我们定义了组件，这个组件是一个继承自`React.Component`的JavaScript类。
 
-
-
+在实际工程里，会经常这样声明一个组件
+```js
+class ContactList extends Component {
+// ...
+}
+```
+这就需要从React导入:
+```js
+import React, { Component } from 'react';
+```
 
