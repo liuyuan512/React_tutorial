@@ -21,7 +21,7 @@
 * [React Router](react-router.md)
   * [简介](react-router/jian-jie.md)
   * [动态渲染页面](react-router/dong-tai-xuan-ran-ye-mian.md)
-  * BrowserRouter
+  * [BrowserRouter](react-router/browserrouter.md)
   * Link
   * [Route](react-router/route.md)
 
