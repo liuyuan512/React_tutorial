@@ -1,7 +1,7 @@
 # Summary
 
 * [简介](README.md)
-* [为什么要使用React](chapter1.md)
+* [React的特点](chapter1.md)
   * [组合](chapter1/zu-he.md)
   * [声明式代码](chapter1/sheng-ming-shi-dai-ma.md)
   * [单一方向数据流](chapter1/dan-yi-fang-xiang-shu-ju-liu.md)
@@ -23,11 +23,11 @@
   * PropTypes
   * Controlled Components
   * 小结
-* 生命周期事件
+* [生命周期事件](sheng-ming-zhou-qi-shi-jian.md)
 * [React Router](react-router.md)
-  * 简介
-  * 动态渲染页面
+  * [简介](react-router/jian-jie.md)
+  * [动态渲染页面](react-router/dong-tai-xuan-ran-ye-mian.md)
   * BrowserRouter
   * Link
-  * Route
+  * [Route](react-router/route.md)
 
