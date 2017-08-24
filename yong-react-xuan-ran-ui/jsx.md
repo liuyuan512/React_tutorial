@@ -100,3 +100,11 @@ class ContactList extends Component {
 import React, { Component } from 'react';
 ```
 
+#小结
+React只关注于应用的View层。我们可以用`.createElement()`来渲染HTML。但是实际中会经常用JSX来描述UI，JSX只是一个语法扩展。，写起来很像HTML。JSX在编译的时候会被编译成React的`.createElement() `方法来输出需要浏览器渲染的HTML。
+
+在创建React应用的时候应该用组件。组件代表了React的复用性和模块性。可以把`component`类当做可以实例化组件的工厂。这个`component`类需要遵守"DOT"(do one thing)原则。如果一个组件需要处理很多任务，那么最好把它拆分成更多小的组件。
+
+##延伸阅读:
+- [Rendering Elements](https://facebook.github.io/react/docs/rendering-elements.html)from the React docs
+
