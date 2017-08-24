@@ -32,7 +32,7 @@ const contacts = [
 [此视频中修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/664306f50a05aafe47f4109860e00593fcbf0321)
 
 >练习
- 如果有一个`<Clock />`组件，如何传递`urrentTime prop`？
+ 如果有一个`<Clock />`组件，如何传递`currentTime prop`？
  - `<Clock {new Data().getTime()} />`
  - `<Clock this.props={new Data().getTime()} />`
  - `<Clock currentTime={new Data().getTime()} />`
