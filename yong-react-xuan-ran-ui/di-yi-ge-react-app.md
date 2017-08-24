@@ -11,3 +11,11 @@ npm install -g create-react-app
 ```
 
 {% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/CgHOAYV70Vw.mp4{% endvideo%}
+
+>#The Yarn Package Manager
+下面这个视频是使用yarn start开启的服务。Yarn是一个类似于NPM的包管理工具。Yarn是由Facebook创造的，旨在改善一些缓慢或缺乏NPM的关键方面。
+
+但是也不必非要安装yarn,视频里的每一次使用yarn都可以用npm换掉。
+
+
+{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/WmYSd7OEjMM.mp4{% endvideo%}
