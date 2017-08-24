@@ -39,3 +39,15 @@ const contacts = [
  - `<Clock this.currentTime={new Date().getTime()} />`
  
 
+{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/qkKNrTUvGJU.mp4{% endvideo %}
+[此视频中修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/eaa138af7d992f05449f524d514ac4224f736ae4)
+
+>###练习
+对于这个组件`<Clock />`:
+`<Clock currentTime='3:41pm'>`如何在组件内部访问值`3:41pm`?
+- Clock.currentTime
+- currentTime
+- this.currentTime
+- this.props.currentTime
+
+
