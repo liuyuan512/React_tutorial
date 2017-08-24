@@ -35,10 +35,7 @@ const contacts = [
 
 >###练习
  如果有一个`<Clock />`组件，如何传递`currentTime prop`？
- - `<Clock {new Data().getTime()} />`
- - `<Clock this.props={new Data().getTime()} />`
- - `<Clock currentTime={new Data().getTime()} />`
- - `<Clock this.currentTime={new Date().getTime()} />`
+
  
 
 {% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/qkKNrTUvGJU.mp4{% endvideo %}
