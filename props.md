@@ -77,11 +77,11 @@ const contacts = [
 
 ```
 // access the prop inside the component
-...
+
 render() {
     return <div>{this.props.text}</div>
 }
-...
+
 ```
 
 #延伸阅读
