@@ -25,3 +25,17 @@ const contacts = [
   }
 ]
 ```
+#确保两个服务器都在运行
+
+{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/v3hF0cyPo3M.mp4{% endvideo %}
+
+[此视频中修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/664306f50a05aafe47f4109860e00593fcbf0321)
+
+>练习
+ 如果有一个`<Clock />`组件，如何传递`urrentTime prop`？
+ - `<Clock {new Data().getTime()} />`
+ - `<Clock this.props={new Data().getTime()} />`
+ - `<Clock currentTime={new Data().getTime()} />`
+ - `<Clock this.currentTime={new Date().getTime()} />`
+ 
+
