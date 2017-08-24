@@ -22,7 +22,7 @@ JSX的由来
 {% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/h_rHa8mVyBk.mp4{% endvideo %}
 
 #练习
-给一个JSX：
+>给一个JSX：
 ```
 const greeting = (
   <div className='greeting'>
@@ -31,7 +31,7 @@ const greeting = (
 );
 ```
 
-如果我们想要输出同样的HTML，那么空白处需要依次填写什么内容?
+>如果我们想要输出同样的HTML，那么空白处需要依次填写什么内容?
 ```
 const greeting = React.createElement(
   __1__,
