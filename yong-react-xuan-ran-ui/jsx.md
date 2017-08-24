@@ -74,3 +74,8 @@ const message = (
 >Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag
 
 JSX只是对`.createElement()`的语法扩展，由于`.createElement()`只能将一个标签名(字符串类型的)作为第一个参数，所以JSX也只能返回一个根元素。
+
+#JSX用于组件
+我们将JSX用在React的组件中来渲染UI。组件是指可以重复使用的代码段，并且对最终渲染到页面上的内容负责。
+由于React的主要作用就是创建我们应用的UI，所以在组件类里唯一要求实现的就是`render()`函数
+
