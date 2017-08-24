@@ -61,3 +61,16 @@ const element = React.creactElement('div',{
 所以我们要切记我们在创建React元素的时候，我们描述的是DOM节点，而不是HTML字符串。
 
 需要时刻牢记的是，当我们用React.creactElement的时候，我们并没有创建实际的DOM节点。直到render之后，浏览器才会创建真实的DOM节点。
+
+#测试
+下列代码运行时，`myBio`的值是什么属性？
+```
+import React from 'react';
+
+const myBio = React.createElement(
+    'div',
+    null,
+    'My name is Michael, and I love porcupines.'
+);
+```
+![](/assets/Screen Shot 2017-08-24 at 10.20.15.png)

@@ -10,7 +10,7 @@
 * [用React渲染UI](yong-react-xuan-ran-ui.md)
   * [简介](yong-react-xuan-ran-ui/jian-jie.md)
   * [Hello world](yong-react-xuan-ran-ui/hello-world.md)
-  * JSX
+  * [JSX](yong-react-xuan-ran-ui/jsx.md)
   * [第一个React App](yong-react-xuan-ran-ui/di-yi-ge-react-app.md)
   * 组合组件
   * 小结
