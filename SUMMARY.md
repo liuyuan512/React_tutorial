@@ -22,7 +22,7 @@
   * setState
   * PropTypes
   * Controlled Components
-  * 小结
+  * [小结](xiao-jie.md)
   * 撒旦
 * [生命周期事件](sheng-ming-zhou-qi-shi-jian.md)
 * [React Router](react-router.md)
