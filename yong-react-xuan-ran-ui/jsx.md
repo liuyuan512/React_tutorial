@@ -107,6 +107,6 @@ React只关注于应用的View层。我们可以用`.createElement()`来渲染HT
 
 ##延伸阅读:
 - [Rendering Elements](https://facebook.github.io/react/docs/rendering-elements.html)from the React docs
-- [一个jsx教程](https://hulufei.gitbooks.io/react-tutorial/jsx-in-depth.html)
+- [jsx介绍](http://www.infoq.com/cn/articles/react-jsx-and-component)from InfoQ
 
 
