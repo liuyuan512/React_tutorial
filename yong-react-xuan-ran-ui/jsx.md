@@ -13,12 +13,12 @@ const element = React.createElement('div', null,
 ```
 当这个React元素作为HTML被渲染时，'Hello world'被嵌套在了一个<div>标签里。也就是说我们可以深层嵌套，但是注意最后的调用一定只能是返回一个单个元素
 
-JSX的由来
+##JSX的由来
 
 {% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/9kyaEeKDUGE.mp4{% endvideo %}
 
 
-下面我们把`React.createElement()`替换成JSX
+##下面我们把`React.createElement()`替换成JSX
 {% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/h_rHa8mVyBk.mp4{% endvideo %}
 
 #练习
