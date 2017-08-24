@@ -1,4 +1,3 @@
 # My Awesome Book
-
-这是我第一次使用gittbook关联
-发生了什么？？
+美丽的Job,我好爱你呀~
+![](/assets/IMG_1488.JPG)
