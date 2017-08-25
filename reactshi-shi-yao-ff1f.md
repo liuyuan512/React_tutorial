@@ -8,6 +8,7 @@ React是一个JavaScript工具，可以轻松推理，构建和维护无状态�
 
 [source code](https://jsfiddle.net/codylindley/s2pxp36L/embed/html,result/)
 <script async src="//jsfiddle.net/codylindley/s2pxp36L/embed/html,result/"></script>
+
 当浏览器解析上面的元素树时，它将产生一个包含可以选择的项目的文本列表的UI。点击上面的JSFiddle中的“结果”选项卡，看看浏览器产生了什么。
 浏览器，[DOM](http://domenlightenment.com/)和[shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Shadow_DOM)在幕后合作，将`<select>` HTML转换为UI组件。注意，`<select>`组件允许用户进行选择，从而存储该选择的状态（即，点击“Volvo”，那么选中的就是“Volvo”)。
 可以通过使用React节点创建一个自定义的`<select>`来创建一个React组件，最终将被编译成HTML DOM中的HTML元素。
