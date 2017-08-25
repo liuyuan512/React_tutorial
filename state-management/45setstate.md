@@ -64,8 +64,14 @@ function exposedFunction {
 - [Using State Correctly](https://facebook.github.io/react/docs/state-and-lifecycle.html) from React Docs
 
 
-
+```
 **[terminal]
+state = {
+    subject: '',
+    message: ''
+  }
+
+```
 **[prompt foo@joe]**[path ~]**[delimiter  $ ]**[command ./myscript]
 Normal output line. Nothing special here...
 But...
