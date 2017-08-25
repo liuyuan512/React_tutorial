@@ -69,6 +69,7 @@ function exposedFunction {
 
 ```
 **[terminal]
+**[error [ERROR] This is not the error you are looking for]
 state = {
     subject: '',
     message: ''
