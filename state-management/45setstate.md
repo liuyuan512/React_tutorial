@@ -9,7 +9,7 @@
 
 之前我们看到过我们是如何在初始化的时候定义一个组件的state的。state是映反映了最终渲染出来的信息，组件可以在生命周期里通过`this.setState()`来更新自己的state，。每一次组件里state的改变，React都会通过调用它的render()方法重新渲染页面。
 有两种方式使用`setState()`:
-```js
+**[terminal]```js
 class Email extends React.Component {
   state = {
     subject: '',
