@@ -4,8 +4,7 @@ React是一个JavaScript工具，可以轻松推理，构建和维护无状态�
 这一部分首先将概括性的讲一下什么是React，以及React一般情况下的用法。先不要关注这一部分的React实现细节，通过这一节大概对React有个认知。后面几部分将会再详细讲述实现细节。
 
 ##使用React创建一个类似`<select>`的UI组件
-这里是这个组件[source code](https://jsfiddle.net/codylindley/s2pxp36L/embed/html,result/)
-<script async src="//jsfiddle.net/codylindley/s2pxp36L/embed/html,result/"></script>
+这里是这个组件[source code](https://jsfiddle.net/codylindley/s2pxp36L/embed/html,result/)<script async src="//jsfiddle.net/codylindley/s2pxp36L/embed/html,result/"></script>
 
 当浏览器解析上面的元素树时，它将产生一个包含可以选择的项目的文本列表的UI。点击上面的JSFiddle中的“结果”选项卡，看看浏览器产生了什么。
 浏览器，[DOM](http://domenlightenment.com/)和[shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Shadow_DOM)在幕后合作，将`<select>` HTML转换为UI组件。注意，`<select>`组件允许用户进行选择，从而存储该选择的状态（即，点击“Volvo”，那么选中的就是“Volvo”)。
