@@ -34,7 +34,7 @@ this.setState((prevState) => ({
 这里我们给函数传递了一个`prevState`参数。当一个组件的新的state依赖于之前的state时候(这里我们在之前的state的基础上加了1)，我们就可以用函数`setState()`
 
 >###练习题
-{% 练习 %}
+{% exercise %}
 Define `x` equal to 10.
 
 {% initial %}
