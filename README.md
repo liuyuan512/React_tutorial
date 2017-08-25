@@ -4,5 +4,3 @@
 
 
 [source code](https://jsfiddle.net/9oro7fyc/embed/html,result/)
-
-<script async src="//jsfiddle.net/9oro7fyc/embed/html,result/"></script>
