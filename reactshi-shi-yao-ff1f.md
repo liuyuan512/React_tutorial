@@ -9,6 +9,5 @@ React是一个JavaScript工具，可以轻松推理，构建和维护无状态�
 [source code](https://jsfiddle.net/9oro7fyc/embed/html,result/)
 
 
-[source code](https://jsfiddle.net/codylindley/zp86ez31/embed/)
-
-<script async src="//jsfiddle.net/codylindley/zp86ez31/embed/"></script>
+[source code](https://jsfiddle.net/codylindley/zp86ez31/embed/js,html,result/)
+<script async src="//jsfiddle.net/codylindley/zp86ez31/embed/js,html,result/"></script>
