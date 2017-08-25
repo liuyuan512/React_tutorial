@@ -225,7 +225,7 @@ ReactDOM.render(<MySelect />, document.getElementById('app'));
 接下来我们需要做的是将当前状态转移到<MyOption>组件，以便它能够可视地响应组件的状态。
 再次使用道具，我们将通过将所有<MyOption>组件中的属性state = {this.state.selected}从<MySelect>组件向下传递到<MyOption>组件。现在我们知道该选项的状态（即this.props.state）和当前值（即this.props.value），我们可以验证该状态是否与给定的<MyOption>组件中的值相匹配。如果是这样，我们就知道应该选择这个选项。我们通过编写一个简单的if语句，如果状态与当前选项的值相匹配，则将简写的if语句添加到JSX <div>中添加样式选择状态（即selectedStyle）。否则，我们返回一个具有unSelectedStyle样式的React元素。
 
-<script async src="//jsfiddle.net/codylindley/L1z9za23/embed/"></script>
+<script async src="//jsfiddle.net/codylindley/L1z9za23/embed/js,html,result/"></script>
 
 
 确保您点击上面的“结果”标签，并使用自定义的“反应选择”组件来验证新功能。
