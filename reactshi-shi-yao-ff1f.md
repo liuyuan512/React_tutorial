@@ -40,10 +40,14 @@ JSX语法必须从JSX转换为真实的JavaScript，以便由ES5的JS引擎解�
 在Babel（或类似的东西）之后，将上述代码中的JSX <div>转换成真正的JavaScript，它将如下所示
 
 ```js
+**[terminal]
+
 return React.createElement('div', { style: mySelectStyle });
 ```
 而不是这样:
 ```js
+**[terminal]
+
 return <div style={mySelectStyle}></div>;
 ```
 现在，请记住，当在React代码中编写类似HTML的标签时，最终必须将其转换为真正的JavaScript以及任何ES6语法。
@@ -53,6 +57,8 @@ return <div style={mySelectStyle}></div>;
 看一下下面更新的JavaScript代码，定义了`<MySelect>`和`<MyOption>` React组件。
 
 ```js
+**[terminal]
+
 var MySelect = React.createClass({
     render: function(){
         var mySelectStyle = {
@@ -110,6 +116,8 @@ var MyOption = React.createClass({  //define MyOption component
 状态通常位于组成UI组件的最顶层组件上。使用React getInitialState（）函数，我们可以通过在调用getInitialState时返回一个状态对象（即return {selected：false};）），将组件的默认状态设置为false（即没有选择）。 getInitialState生命周期方法在组件装入之前被调用一次。返回值将用作this.state的初始值。
 我已经更新了下面的代码，以将状态添加到组件。当我更新代码时，请确保阅读JavaScript注释，注意代码中的更改。
 ```js
+**[terminal]
+
 var MySelect = React.createClass({
     getInitialState: function(){ //add selected, default state
         return {selected: false}; //this.state.selected = false;
@@ -143,6 +151,8 @@ ReactDOM.render(<MySelect />, document.getElementById('app'));
 
 使用默认状态设置，接下来我们将添加一个名为select的回调函数，当用户单击某个选项时，该函数将被调用。在这个函数的内部，我们得到所选择的选项的文本（通过事件参数），并使用它来确定当前组件的setState。请注意，我正在使用传递给选择回调的事件详细信息。如果你有任何jQuery的经验，这种模式应该很熟悉。
 ```js
+**[terminal]
+
 var MySelect = React.createClass({
     getInitialState: function(){
         return {selected: false};
@@ -185,6 +195,8 @@ ReactDOM.render(<MySelect />, document.getElementById('app'));
 有了这一点，我们可以将`onClick = {this.props.select}`添加到`<MyOption>`组件。希望很明显，我们所做的一切都是可以链接一个可以调用select函数的点击事件。 React负责为实际链接真正的DOM中的点击处理程序。
 
 ```js
+**[terminal]
+
 var MySelect = React.createClass({
     getInitialState: function(){
         return {selected: false};
@@ -235,6 +247,8 @@ ReactDOM.render(<MySelect />, document.getElementById('app'));
 在转向虚拟DOM的角色之前，我想强调，您不必使用JSX和Babel。您可以随时绕过这些工具，并直接写入JavaScript。下面，我在JSB被Babel转换后，显示代码的最终状态。如果您选择不使用JSX，那么你必须自己编写以下代码，而不是我在本节中编写的代码。
 
 ```js
+**[terminal]
+
 var MySelect = React.createClass({
   displayName: 'MySelect',
 
