@@ -35,7 +35,7 @@ this.setState((prevState) => ({
 
 >###练习题
 {% 练习 %}
-定义一个变量 `x` equal to 10.
+Define `x` equal to 10.
 
 {% initial %}
 var x =
