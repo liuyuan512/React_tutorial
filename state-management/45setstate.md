@@ -70,6 +70,7 @@ function exposedFunction {
 ```
 **[terminal]
 **[error [ERROR] This is not the error you are looking for]
+**[prompt foo@joe]**[path ~]
 state = {
     subject: '',
     message: ''
