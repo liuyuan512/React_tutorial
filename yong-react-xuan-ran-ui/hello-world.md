@@ -76,8 +76,8 @@ const myBio = React.createElement(
 );
 ```
 >- 一个指向DOM节点的指针
- - 一个DOM节点
- - 一个JavaScript对象
- - 一个JavaScript类
+>- 一个DOM节点
+>- 一个JavaScript对象
+>- 一个JavaScript类
  
    
