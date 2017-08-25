@@ -34,9 +34,27 @@ this.setState((prevState) => ({
 这里我们给函数传递了一个`prevState`参数。当一个组件的新的state依赖于之前的state时候(这里我们在之前的state的基础上加了1)，我们就可以用函数`setState()`
 
 >###练习题
+{% exercise %}
+Define a variable `x` equal to 10.
 
+{% initial %}
+var x =
 
+{% solution %}
+var x = 10;
 
+{% validation %}
+assert(x == 10);
+
+{% context %}
+// This is context code available everywhere
+// The user will be able to evaluate `exposedVar`
+var exposedVar = 3;
+// ... or call `exposedFunction`
+function exposedFunction {
+    return 3;
+}
+{% endexercise %}
 
 
 #小结
