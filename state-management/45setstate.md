@@ -9,7 +9,7 @@
 
 之前我们看到过我们是如何在初始化的时候定义一个组件的state的。state是映反映了最终渲染出来的信息，组件可以在生命周期里通过`this.setState()`来更新自己的state，。每一次组件里state的改变，React都会通过调用它的render()方法重新渲染页面。
 有两种方式使用`setState()`:
-**[terminal]```js
+```js
 class Email extends React.Component {
   state = {
     subject: '',
@@ -62,3 +62,14 @@ function exposedFunction {
 
 #延伸阅读:
 - [Using State Correctly](https://facebook.github.io/react/docs/state-and-lifecycle.html) from React Docs
+
+
+
+**[terminal]
+**[prompt foo@joe]**[path ~]**[delimiter  $ ]**[command ./myscript]
+Normal output line. Nothing special here...
+But...
+You can add some colors. What about a warning message?
+**[warning [WARNING] The color depends on the theme. Could look normal too]
+What about an error message?
+**[error [ERROR] This is not the error you are looking for]
