@@ -93,5 +93,4 @@ var MyOption = React.createClass({  //define MyOption component
 现在让我们将`<MySelect>`组件呈现给虚拟DOM，而后者又会将其转换为HTML页面内的实际DOM。
 在下面的JavaScript中，我在最后一行添加了一个对`ReactDOM.render（）`函数的调用。在这里，我将`ReactDOM.render（）`函数传递给我们要呈现的组件（即`<MySelect>`），并引用HTML DOM中的HTML元素（即`<div id =“app”> </ div >`）,即我想渲染我的React` <MySelect>`组件的地方。
 下面单击“Result”选项卡，将看到我们自定义的React `<MySelect>`组件呈现给HTML DOM。
-[source code](https://jsfiddle.net/codylindley/zp86ez31/embed/js,html,result/)
 <script async src="//jsfiddle.net/codylindley/zp86ez31/embed/js,html,result/"></script>
