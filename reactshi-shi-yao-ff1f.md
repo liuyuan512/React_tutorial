@@ -289,7 +289,7 @@ ReactDOM.render(React.createElement(MySelect, null), document.getElementById('ap
 ```
 
 ##理解虚拟DOM的作用
-在这里差不多结束这一节。再讨论一下React虚拟DOM的优点来完成这个React概述。
+在这里再讨论一下React虚拟DOM的优点来完成这个React概述。
 希望你注意到，在创建我们的自定义选择UI时，我们唯一与真实DOM进行交互的是当我们告诉ReactDOM.render（）函数在HTML页面中渲染我们的UI组件（即，将其渲染为`<div id = "app"> </div>`）。这可能只是在从React组件树构建React应用程序时，与真正的DOM唯一的交互。在这里，它的价值在于React。通过使用React，你真的不必像你曾经在编写jQuery代码一样考虑DOM。通过从代码中删除大部分（如果不是全部）隐含的DOM交互，React将作为一个完整的DOM抽象来替代jQuery。当然，这不是唯一的优点。
 因为DOM已被虚拟DOM完全抽象，所以允许在状态改变时更新真正的DOM的繁重的性能模式。虚拟DOM根据状态和道具来跟踪UI变化。然后将其与真实的DOM进行比较，然后仅进行更新UI所需的最小更改。换句话说，真正的DOM只有当state或props改变时才需要的最小化的变化。
 实时查看这些性能更新通常会澄清有关执行者DOM差异的任何混淆。看下面的动画图片，展示我们在本章中创建的UI组件的用法（即改变状态）。
