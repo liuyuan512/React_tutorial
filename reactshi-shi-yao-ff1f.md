@@ -17,6 +17,8 @@ React是一个JavaScript工具，可以轻松推理，构建和维护无状态�
 下面将通过引用`React.createClass`函数来创建一个`MySelect`React组件。
 这个将要创建的`MySelect`组件将由一些样式和一个空的React`<div>`节点元素构成。
 ```js
+**[terminal]
+
 var MySelect = React.createClass({ //define MySelect component
     render: function(){
         var mySelectStyle = {
