@@ -10,6 +10,7 @@
 之前我们看到过我们是如何在初始化的时候定义一个组件的state的。state是映反映了最终渲染出来的信息，组件可以在生命周期里通过`this.setState()`来更新自己的state，。每一次组件里state的改变，React都会通过调用它的render()方法重新渲染页面。
 有两种方式使用`setState()`:
 ```js
+**[terminal]
 class Email extends React.Component {
   state = {
     subject: '',
@@ -20,6 +21,7 @@ class Email extends React.Component {
 ```
 这个例子中，组件的state包含了两个属性(`subject`和`message`)，它们也可以独自更新，比如:
 ```js
+**[terminal]
 this.setState({
   subject: 'Hello! This is a new subject'
 })
@@ -27,6 +29,7 @@ this.setState({
 通过这种方式，我们可以使`this.state.message`保持原样，但是可以用一个新值来替换`this.state.subject`。
 第二种方式，我们可以通过给`setState()`传递一个函数，而并非传递一个对象。例如:
 ```js
+**[terminal]
 this.setState((prevState) => ({
   count: prevState.count + 1
 }))
