@@ -103,10 +103,10 @@ var MyOption = React.createClass({  //define MyOption component
 
 ##使用React的state
 
-为了使我们的`<MySelect>`组件模仿一个本地的`<select>`元素，我们将不得不添加状态。毕竟，如果不能保持选择的状态，那么自定义`<select>`元素是什么好的。
-当组件包含信息快照时，状态通常会涉及到。关于我们的定制`<MyOption>`组件，它的状态是当前选择的文本或根本没有选择任何文本的事实。请注意，状态通常涉及用户事件（即鼠标，键盘，剪贴板等）或网络事件（即AJAX），并且其值用于确定UI何时需要重新呈现（即，当值更改时重新渲染）。
+为了使我们的`<MySelect>`组件模仿一个本地的`<select>`元素，我们将向组件添加状态。毕竟，如果不能保持选择的状态，那么自定义`<select>`元素是没有意义的。
+当组件包含信息快照时，state通常避免不了。我们的定制`<MyOption>`组件，它的状态是当前选择的文本或没有选择任何文本。请注意，state通常涉及用户事件（即鼠标，键盘，剪贴板等）或网络事件（即AJAX），并且其值用于确定UI何时需要重新呈现（即，当值更改时重新渲染）。
 状态通常位于组成UI组件的最顶层组件上。使用React getInitialState（）函数，我们可以通过在调用getInitialState时返回一个状态对象（即return {selected：false};）），将组件的默认状态设置为false（即没有选择）。 getInitialState生命周期方法在组件装入之前被调用一次。返回值将用作this.state的初始值。
-我已经更新了下面的代码，以将状态添加到组件。当我更新代码时，请确保您阅读JavaScript注释，注意代码中的更改。
+我已经更新了下面的代码，以将状态添加到组件。当我更新代码时，请确保阅读JavaScript注释，注意代码中的更改。
 ```js
 var MySelect = React.createClass({
     getInitialState: function(){ //add selected, default state
@@ -139,7 +139,7 @@ ReactDOM.render(<MySelect />, document.getElementById('app'));
 ```
 
 
-使用默认状态设置，接下来我们将添加一个名为select的回调函数，当用户单击某个选项时，该函数将被调用。在这个函数的内部，我们得到所选择的选项的文本（通过事件参数），并使用它来确定当前组件的setState。请注意，我正在使用传递给选择回调的事件详细信息。如果您有任何jQuery的经验，这种模式应该很熟悉。
+使用默认状态设置，接下来我们将添加一个名为select的回调函数，当用户单击某个选项时，该函数将被调用。在这个函数的内部，我们得到所选择的选项的文本（通过事件参数），并使用它来确定当前组件的setState。请注意，我正在使用传递给选择回调的事件详细信息。如果你有任何jQuery的经验，这种模式应该很熟悉。
 ```js
 var MySelect = React.createClass({
     getInitialState: function(){
@@ -179,8 +179,8 @@ ReactDOM.render(<MySelect />, document.getElementById('app'));
 ```
 
 
-为了让我们的<MyOption>组件能够访问select函数，我们必须通过props从<MySelect>组件向<MyOption>组件传递对它的引用。为此，我们将select = {this.select}添加到<MyOption>组件。
-有了这一点，我们可以将onClick = {this.props.select}添加到<MyOption>组件。希望很明显，我们所做的一切都是连接一个可以调用select函数的点击事件。 React负责为您实际连接真正的DOM中的真正点击处理程序。
+为了让我们的<MyOption>组件能够访问select函数，我们必须通过`props`从`<MySelect>`组件向`<MyOption>`组件传递对它的引用。为此，我们将`select = {this.select}`添加到`<MyOption>`组件。
+有了这一点，我们可以将`onClick = {this.props.select}`添加到`<MyOption>`组件。希望很明显，我们所做的一切都是可以链接一个可以调用select函数的点击事件。 React负责为实际链接真正的DOM中的点击处理程序。
 
 ```js
 var MySelect = React.createClass({
@@ -221,16 +221,16 @@ ReactDOM.render(<MySelect />, document.getElementById('app'));
 ```
 
 
-通过这样做，我们现在可以通过点击其中一个选项来设置状态。换句话说，当您单击选项时，选择功能将运行并设置MySelect组件的状态。然而，组件的用户不知道这是做的，因为我们所做的是更新我们的代码，以便状态由组件管理。在这一点上，我们在视觉上没有任何反馈。我们来解决这个问题。
-接下来我们需要做的是将当前状态转移到<MyOption>组件，以便它能够可视地响应组件的状态。
-再次使用道具，我们将通过将所有<MyOption>组件中的属性state = {this.state.selected}从<MySelect>组件向下传递到<MyOption>组件。现在我们知道该选项的状态（即this.props.state）和当前值（即this.props.value），我们可以验证该状态是否与给定的<MyOption>组件中的值相匹配。如果是这样，我们就知道应该选择这个选项。我们通过编写一个简单的if语句，如果状态与当前选项的值相匹配，则将简写的if语句添加到JSX <div>中添加样式选择状态（即selectedStyle）。否则，我们返回一个具有unSelectedStyle样式的React元素。
+通过这样做，我们现在可以通过点击其中一个选项来设置状态。换句话说，当单击选项时，选择功能将运行并设置MySelect组件的状态。然而，组件的用户不知道这是做的，因为我们所做的是更新我们的代码，以便状态由组件管理。在这一点上，我们在视觉上没有任何反馈。我们来解决这个问题。
+接下来我们需要做的是将当前状态转移到`<MyOption>`组件，以便它能够可视地响应组件的状态。
+再次使用道具，我们将通过将所有`<MyOption>`组件中的属性`state = {this.state.selected}`从`<MySelect>`组件向下传递到`<MyOption>`组件。现在我们知道该选项的状态（即`this.props.state`）和当前值（即`this.props.value`），我们可以验证该状态是否与给定的`<MyOption>`组件中的值相匹配。如果是这样，我们就知道应该选择这个选项。我们通过编写一个简单的if语句，如果状态与当前选项的值相匹配，则将简写的if语句添加到JSX `<div>`中添加样式选择状态（即`selectedStyle`）。否则，我们返回一个具有`unSelectedStyle`样式的React元素。
 
 <script async src="//jsfiddle.net/codylindley/L1z9za23/embed/js,html,result/"></script>
 
 
-确保您点击上面的“结果”标签，并使用自定义的“反应选择”组件来验证新功能。
-虽然我们的React UI选择组件不像您所希望的那样漂亮或功能完整，但我认为您仍然可以看到这一切。 React是一种可以帮助您在结构树（即组件树）中推理，构造和维护无状态和有状态UI组件的工具。
-在转向虚拟DOM的角色之前，我想强调，您不必使用JSX和Babel。您可以随时绕过这些工具，并直接写入JavaScript。下面，我在JSB被Babel转换后，显示代码的最终状态。如果您选择不使用JSX，那么您必须自己编写以下代码，而不是我在本节中编写的代码。
+确保您点击上面的“Result”标签，并使用自定义的“React select”组件来验证新功能。
+虽然我们的React UI选择组件不像你所希望的那样漂亮或功能完整，但我希望你可以理解它工作的方式。 React是一种可以帮助你在结构树（即组件树）中推理，构造和维护无状态和有状态UI组件的工具。
+在转向虚拟DOM的角色之前，我想强调，您不必使用JSX和Babel。您可以随时绕过这些工具，并直接写入JavaScript。下面，我在JSB被Babel转换后，显示代码的最终状态。如果您选择不使用JSX，那么你必须自己编写以下代码，而不是我在本节中编写的代码。
 
 ```js
 var MySelect = React.createClass({
@@ -289,11 +289,11 @@ ReactDOM.render(React.createElement(MySelect, null), document.getElementById('ap
 ```
 
 ##理解虚拟DOM的作用
-我要结束这个旋风旅游，大多数人通常开始谈论反应。我将通过讨论React虚拟DOM的优点来完成这个React概述。
-希望你注意到，在创建我们的自定义选择UI时，我们唯一与真实DOM进行交互的是当我们告诉ReactDOM.render（）函数在HTML页面中渲染我们的UI组件（即，将其渲染为<div id = “应用程序”> </ DIV>）。这可能只是在从React组件树构建React应用程序时，与真正的DOM唯一的交互。在这里，它的价值在于React。通过使用React，你真的不必像你曾经在编写jQuery代码一样考虑DOM。通过从代码中删除大部分（如果不是全部）隐含的DOM交互，React将作为一个完整的DOM抽象来替代jQuery。当然，这不是唯一的好处，甚至是最好的好处。
-因为DOM已被虚拟DOM完全抽象，所以允许在状态改变时更新真正的DOM的繁重的性能模式。虚拟DOM根据状态和道具来跟踪UI变化。然后将其与真实的DOM进行比较，然后仅进行更新UI所需的最小更改。换句话说，真正的DOM只有当状态或道具改变时才需要最小化的变化。
+在这里差不多结束这一节。再讨论一下React虚拟DOM的优点来完成这个React概述。
+希望你注意到，在创建我们的自定义选择UI时，我们唯一与真实DOM进行交互的是当我们告诉ReactDOM.render（）函数在HTML页面中渲染我们的UI组件（即，将其渲染为`<div id = "app"> </div>`）。这可能只是在从React组件树构建React应用程序时，与真正的DOM唯一的交互。在这里，它的价值在于React。通过使用React，你真的不必像你曾经在编写jQuery代码一样考虑DOM。通过从代码中删除大部分（如果不是全部）隐含的DOM交互，React将作为一个完整的DOM抽象来替代jQuery。当然，这不是唯一的优点。
+因为DOM已被虚拟DOM完全抽象，所以允许在状态改变时更新真正的DOM的繁重的性能模式。虚拟DOM根据状态和道具来跟踪UI变化。然后将其与真实的DOM进行比较，然后仅进行更新UI所需的最小更改。换句话说，真正的DOM只有当state或props改变时才需要的最小化的变化。
 实时查看这些性能更新通常会澄清有关执行者DOM差异的任何混淆。看下面的动画图片，展示我们在本章中创建的UI组件的用法（即改变状态）。
-请注意，随着UI组件更改状态，只有最终需要的对实际DOM的更改正在发生。我们知道React正在做这件事，因为实际上正在更新的真正的DOM的唯一部分是具有绿色轮廓/背景的部分。整个UI组件在每个状态更改时都没有被更新，只是需要更改的部分
+请注意，随着UI组件更改状态，只有最终需要的对实际DOM的更改正在发生。我们知道React正在做这件事，因为实际上正在更新的真正的DOM的唯一部分是具有绿色轮廓/背景的部分。整个UI组件在每个状态更改时只是更新需要更改的部分，其他的地方都没有被更新，
 
-让我清楚一点，这不是一个革命性的概念。你可以用一些精心制作和表现出色的jQuery代码来完成同样的事情。但是，通过使用React，您很少会考虑它。虚拟DOM正在为您做所有的性能工作。从某种意义上说，这是最好的jQuery / DOM抽象类型。一个你甚至不必担心或代码的DOM。这一切都发生在幕后，没有你隐含地必须与DOM本身进行交互。
-现在，离开这个概述可能是诱人的，认为React的价值是包含在几乎不再需要像jQuery这样的事实。而当与隐式jQuery代码相比，虚拟DOM当然是一种缓解，而React的值并不在虚拟DOM上。虚拟DOM只是蛋糕上的糖衣。简单地说，React的价值取决于它为创建一个UI组件树提供了一个简单和可维护的模式。想象一下，通过使用可重复使用的React组件来定义应用程序的整个界面，可以简化UI的编程。
+让我清楚一点，这不是一个革命性的概念。你可以用一些精心制作和表现出色的jQuery代码来完成同样的事情。但是，通过使用React，你很少会考虑它。虚拟DOM正在为你做所有的性能工作。从某种意义上说，这是最好的jQuery / DOM抽象类型。一个你甚至不必担心或代码的DOM。这一切都发生在幕后，没有你隐含地必须与DOM本身进行交互。
+当与隐式jQuery代码相比，虚拟DOM当然是一种缓解，而React的价值并不在虚拟DOM上。虚拟DOM只是蛋糕上的糖衣。简单地说，React的价值取决于它为创建一个UI组件树提供了一个简单和可维护的模式。想象一下，通过使用可重复使用的React组件来定义应用程序的整个界面，可以简化UI的编程。
