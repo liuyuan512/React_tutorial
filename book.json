@@ -1,5 +1,5 @@
 {
-    "plugins": ["html5-video","jsfiddle","exercises","terminal"],
+    "plugins": ["html5-video","jsfiddle","exercises","terminal","neo-navigator"],
     "pluginsConfig": {
           "jsfiddle":{
             "type":"script",
