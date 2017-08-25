@@ -21,7 +21,7 @@
 >###练习2
  如果下面的`<IngredientList />`组件是一个Stateless Functional Components，那么在组件外部应该如何访问prop`items`?
  
- `<IngredientList items={ingredient.items} />`
+>`<IngredientList items={ingredient.items} />`
  
  
 #小结
