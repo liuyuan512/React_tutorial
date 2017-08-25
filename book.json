@@ -1,5 +1,5 @@
 {
-    "plugins": ["html5-video","jsfiddle","exercises"],
+    "plugins": ["html5-video","jsfiddle","exercises","terminal"],
     "pluginsConfig": {
           "jsfiddle":{
             "type":"script",
