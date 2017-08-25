@@ -78,7 +78,7 @@ var MyOption = React.createClass({  //define MyOption component
 注意看一下`<MyOption>`组件是怎样用在`<MySelect>`内部的，使用了JSX语法。
 
 
-##通过使用React的props想组件传递属性
+##通过使用React的props向组件传递属性
 
 
 请注意，`<MyOption>`组件由一个包含表达式`{this.props.value}`的`<div>`组成。对于JSX，{}括号表示正在使用JavaScript表达式。换句话说，用{}你可以写JavaScript代码。
