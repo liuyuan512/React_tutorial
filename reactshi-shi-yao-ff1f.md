@@ -58,7 +58,6 @@ return <div style={mySelectStyle}></div>;
 
 ```js
 **[terminal]
-
 var MySelect = React.createClass({
     render: function(){
         var mySelectStyle = {
