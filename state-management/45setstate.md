@@ -66,21 +66,3 @@ function exposedFunction {
 #延伸阅读:
 - [Using State Correctly](https://facebook.github.io/react/docs/state-and-lifecycle.html) from React Docs
 
-
-```
-**[terminal]
-**[error [ERROR] This is not the error you are looking for]
-**[prompt foo@joe]**[path ~]
-state = {
-    subject: '',
-    message: ''
-  }
-
-```
-**[prompt foo@joe]**[path ~]**[delimiter  $ ]**[command ./myscript]
-Normal output line. Nothing special here...
-But...
-You can add some colors. What about a warning message?
-**[warning [WARNING] The color depends on the theme. Could look normal too]
-What about an error message?
-**[error [ERROR] This is not the error you are looking for]
