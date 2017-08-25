@@ -20,7 +20,7 @@
   * [4.2props](state-management/props.md)
   * [4.3Stateless Functional Component](state-management/stateless-functional-component.md)
   * [4.4State](state-management/state.md)
-  * 4.5setState
+  * [4.5setState](state-management/45setstate.md)
   * 4.6PropTypes
   * 4.7Controlled Components
   * [4.8小结](state-management/xiao-jie.md)
