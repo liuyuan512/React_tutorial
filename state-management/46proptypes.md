@@ -12,7 +12,7 @@ npm install --save prop-types
 [这里是视频中修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/a7f4728c61b539863b91752bfe21924eb81f3039)
 
 ##练习
-```
+```js
 **[terminal]
 import PropTypes from 'prop-types';
 
