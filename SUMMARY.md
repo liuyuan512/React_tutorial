@@ -22,7 +22,7 @@
   * [4.4State](state-management/state.md)
   * [4.5setState](state-management/45setstate.md)
   * [4.6PropTypes](state-management/46proptypes.md)
-  * 4.7Controlled Components
+  * [4.7Controlled Components](state-management/47controlled-components.md)
   * [4.8小结](state-management/xiao-jie.md)
 * [5.生命周期事件](sheng-ming-zhou-qi-shi-jian.md)
 * [6.React Router](react-router.md)
