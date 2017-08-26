@@ -21,7 +21,7 @@
   * [4.3Stateless Functional Component](state-management/stateless-functional-component.md)
   * [4.4State](state-management/state.md)
   * [4.5setState](state-management/45setstate.md)
-  * 4.6PropTypes
+  * [4.6PropTypes](state-management/46proptypes.md)
   * 4.7Controlled Components
   * [4.8小结](state-management/xiao-jie.md)
 * [5.生命周期事件](sheng-ming-zhou-qi-shi-jian.md)
