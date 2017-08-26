@@ -14,7 +14,6 @@ npm install --save prop-types
 >##练习
 ```
 **[terminal]
-
 import PropTypes from 'prop-types';
 
 class Email extends React.Component {
