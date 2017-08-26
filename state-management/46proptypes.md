@@ -11,7 +11,7 @@ npm install --save prop-types
 {% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/jorS3jX3ngo.mp4{% endvideo %}
 [这里是视频中修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/a7f4728c61b539863b91752bfe21924eb81f3039)
 
->##练习
+##练习
 ```
 **[terminal]
 import PropTypes from 'prop-types';
