@@ -36,30 +36,6 @@ this.setState((prevState) => ({
 ```
 这里我们给函数传递了一个`prevState`参数。当一个组件的新的state依赖于之前的state时候(这里我们在之前的state的基础上加了1)，我们就可以用函数`setState()`
 
->###练习题
-{% exercise %}
-Define `x` equal to 10.
-
-{% initial %}
-var x =
-
-{% solution %}
-var x = 10;
-
-{% validation %}
-assert(x === 10);
-
-{% context %}
-// This is context code available everywhere
-// The user will be able to evaluate `exposedVar`
-var exposedVar = 3;
-// ... or call `exposedFunction`
-function exposedFunction {
-    return 3;
-}
-{% endexercise %}
-
-
 #小结
 组件可以在初始化的时候设置state，这个state一般会根据用户的输入做出改变。组件可以使用`this.setState()`改变自己的内部state。每次state改变，React都会知道并且调用`render()`来重新渲染这个组件。这就给应用的UI提供了快速、有效的更新。
 
