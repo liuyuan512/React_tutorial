@@ -29,9 +29,8 @@
   * [5.2componentDidMount\(\)](sheng-ming-zhou-qi-shi-jian/52componentdidmount.md)
   * [5.3小结](sheng-ming-zhou-qi-shi-jian/53xiao-jie.md)
 * [6.React Router](react-router.md)
-  * [6.1简介](react-router/jian-jie.md)
-  * [6.2动态渲染页面](react-router/dong-tai-xuan-ran-ye-mian.md)
-  * [6.3BrowserRouter](react-router/browserrouter.md)
-  * 6.4Link
-  * [6.5Route](react-router/route.md)
+  * [6.1动态渲染页面](react-router/dong-tai-xuan-ran-ye-mian.md)
+  * [6.2BrowserRouter](react-router/browserrouter.md)
+  * 6.3Link
+  * [6.4Route](react-router/route.md)
 
