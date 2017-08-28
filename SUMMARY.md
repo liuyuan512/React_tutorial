@@ -31,6 +31,6 @@
 * [6.React Router](react-router.md)
   * [6.1用state控制页面](react-router/dong-tai-xuan-ran-ye-mian.md)
   * [6.2BrowserRouter](react-router/browserrouter.md)
-  * 6.3Link
+  * [6.3Link](react-router/63link.md)
   * [6.4Route](react-router/route.md)
 
