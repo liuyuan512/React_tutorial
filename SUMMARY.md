@@ -27,7 +27,7 @@
 * [5.生命周期事件](sheng-ming-zhou-qi-shi-jian.md)
   * [5.1简介](sheng-ming-zhou-qi-shi-jian/51jian-jie.md)
   * [5.2componentDidMount\(\)](sheng-ming-zhou-qi-shi-jian/52componentdidmount.md)
-  * 5.3小结
+  * [5.3小结](sheng-ming-zhou-qi-shi-jian/53xiao-jie.md)
 * [6.React Router](react-router.md)
   * [6.1简介](react-router/jian-jie.md)
   * [6.2动态渲染页面](react-router/dong-tai-xuan-ran-ye-mian.md)
