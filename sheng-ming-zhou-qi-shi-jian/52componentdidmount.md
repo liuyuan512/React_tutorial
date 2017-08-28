@@ -10,7 +10,7 @@
 
 下面看一个例子
 ```js
-***[terminal]
+**[terminal]
 
 import React, { Component } from 'react';
 import fetchUser from '../utils/UserAPI';
