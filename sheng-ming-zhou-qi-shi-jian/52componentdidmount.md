@@ -55,6 +55,7 @@ export default User;
 下面将使用`componentDidMount()`来抓取在服务器里面的真实数据
 >!要求的文件!
  项目最初有直接克隆项目和从最初的[create-react-app](https://github.com/facebookincubator/create-react-app)自己来实现，如果你是使用了create-react-app来构建的项目，那么你需要这个文件[the ContactsAPI file](https://github.com/udacity/reactnd-contacts-complete/blob/master/src/utils/ContactsAPI.js)
+ 
 {% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/DoDbW-DlwlI.mp4{% endvideo %}
 [这里是视频里修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/2f165b6f1c95092722486249b00cb172bcf1d3ab)
 
