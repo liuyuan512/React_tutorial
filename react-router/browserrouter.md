@@ -22,6 +22,7 @@ npm install --save react-router-dom
 React Router里比较好的地方是所有的东西都是组件。这就使得使用起来非常赞，同样深入代码非常便捷。下面看一下BrowserRouter内部的结构。
 
 ```js
+**[terminal]
 class BrowserRouter extends React.Component {
   static propTypes = {
     basename: PropTypes.string,
