@@ -34,4 +34,5 @@
   * [6.3Link](react-router/63link.md)
   * [6.4Route](react-router/route.md)
   * [6.5完成Contact Form](react-router/65wan-cheng-contact-form.md)
+  * [6.6小结](react-router/66xiao-jie.md)
 
