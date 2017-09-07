@@ -79,7 +79,7 @@ JSX只是对`.createElement()`的语法扩展，由于`.createElement()`只能�
 我们将JSX用在React的组件中来渲染UI。组件是指可以重复使用的代码段，并且对最终渲染到页面上的内容负责。
 由于React的主要作用就是创建我们应用的UI，所以在组件类里唯一要求实现的就是`render()`函数
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/qHjr2ndg2UA.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-2renderingui-2-6.mp4{% endvideo %}
 #在React中声明组件
 在上个视频中，我们这样定义`ContactList`
 ```js
