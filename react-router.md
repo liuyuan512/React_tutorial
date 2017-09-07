@@ -1,4 +1,5 @@
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/Jqq2Ig4BaTo.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-5ManagingAppLocation-1-1.mp4{% endvideo %}
+
 
 #单页应用
 单页应用可以以不同的方式运行。其中一种方式就是通过一次下载了所有的网页内容。通过这种方式，当你操作这个页面时，页面不需要刷新。另一种方式是通过加载用户请求的数据来渲染页面，这样当用户被导航到了新页面，就会有一步加载请求被执行。
