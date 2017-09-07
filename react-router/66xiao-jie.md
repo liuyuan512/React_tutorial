@@ -1,3 +1,3 @@
 #小结
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/_tQZiFzaC3k.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-5ManagingAppLocation-7-1.mp4{% endvideo %}
