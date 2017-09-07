@@ -2,7 +2,7 @@
 
 下面我们将要使用的生命周期事件是`componentDidMount()`
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/r4mMii8NTAQ.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-4RenderUIwithExternalData-2-1.mp4{% endvideo %}
 
 #`componentDidMount()`是如何工作的
 上一部分讲了`componentDidMount()`事件，它是在组件添加进DOM之后立即调用的，应该在你抓取远程数据或者是做AJAX请求的时候做的，下面是React文档里对这个方法的描述
@@ -56,13 +56,13 @@ export default User;
 >!要求的文件!
  项目最初有直接克隆项目和从最初的[create-react-app](https://github.com/facebookincubator/create-react-app)自己来实现，如果你是使用了create-react-app来构建的项目，那么你需要这个文件[the ContactsAPI file](https://github.com/udacity/reactnd-contacts-complete/blob/master/src/utils/ContactsAPI.js)
  
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/DoDbW-DlwlI.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-4RenderUIwithExternalData-2-2.mp4{% endvideo %}
 [这里是视频里修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/2f165b6f1c95092722486249b00cb172bcf1d3ab)
 
 #移除Contacts
 到目前为止，我们开始从Contacta API抓取数据，并且将它们添加进`this.state.contacts`。但是还没有移除功能。目前当我们移除一个contact的时候，仅仅是从`this.state.contacts`中里面移除，但是它仍然存在与后端数据库里。下面使用Contacts API's `remove()`方法来更新后端
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/vHj2BqAW7jA.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-4RenderUIwithExternalData-2-3.mp4{% endvideo %}
 [视频里修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/151ea430aea71230811cd395ee08398df9b8f170)
 
 >如果误删了所有的数据，你只需要重新启动后端服务器

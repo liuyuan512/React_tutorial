@@ -1,6 +1,6 @@
 #生命周期事件
 当我们需要管理或者处理来自数据库或者其它地方的数据时，就需要调用AJAX方法来获取数据，可是这个方法应该在哪里执行呢？你或许会把它放在`render()`函数里面，但是,`render()`函数是不应该有任何副作用的，它应该是一个纯函数。这个函数里面不能够处理任何异步的进程。它只能够就收`props`，返回一个UI的描述。这些事情应该在生命周期事件里调用
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/5UbhHLY25iY.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-4RenderUIwithExternalData-1-1.mp4{% endvideo %}
 
 #render()函数只能用来渲染页面
 这里需要再强调一下，数据的远程抓取不应该放在render()函数里面。组件的render()函数应该只是用来渲染这个组件，不应该包含任何的HTTP的请求，抓取数据或者修改DOM。render()方法同样也不可以调用其他的方法来做这些事情。
