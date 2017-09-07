@@ -1,6 +1,6 @@
 #Link组件
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/qbP07LypkN8.mp4{% endvideo %}
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/V3kc4Sz1GII.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-5ManagingAppLocation-4-1.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-5ManagingAppLocation-4-2.mp4{% endvideo %}
 [这里是视频中修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/4fa3926892f6292fe562902ca1b1e3c9d840f27a)
 
 `<Link>`是一个提供声明式的，易于导航的组件。通过传入一个`to`属性，你就可以告诉它导航到哪个路径。
