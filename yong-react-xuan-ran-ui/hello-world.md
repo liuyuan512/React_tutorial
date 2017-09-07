@@ -36,6 +36,9 @@ console.log(element)
 
 这个对象的type属性，就是我们创建的元素里面的第一个参数的值。
 
+
+{% video controls="controls" %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-2renderingui-2-1.mp4{% endvideo %}
+
 {% video controls="controls" %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/MTXIx7859P0.mp4{% endvideo %}
 
 我们把React元素渲染到了一个叫做`root`的DOM节点，那么这个`root`来自哪里呢？
