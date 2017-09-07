@@ -3,7 +3,7 @@
 
 那么组件的`state`属性，就是指可以被修改的，而且会影响到最终页面渲染的内容。这一部分，我们看一下如何将state管理的复杂性封装到各个对的组件之中去的。
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/W-udVlRApio.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-3stateManagement-4-1.mp4{% endvideo %}
 
 >##注意!
  上面的代码里，我们直接将`state`对象放入了class里面，并没有通过`constructor()`方法
@@ -29,7 +29,7 @@
 
 >在`constructor()`之外直接设置`state`意味着它是一个类[class fields](https://github.com/tc39/proposal-class-fields)，一个语言的新特性。暂时还没有被JavaScript支持，但是多亏了强大的Babel的转译能力，我们可以使用它！
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/RyO7B5KLXVY.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-3stateManagement-4-2.mp4{% endvideo %}
 [这里是视频里修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/c4b43702554a8bf732eef6264c7053c370c6b201)
 
 
