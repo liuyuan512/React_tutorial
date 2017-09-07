@@ -1,2 +1,2 @@
 #小结
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/9l4fMVw0kdQ.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-2renderingui-5-1.mp4{% endvideo %}
