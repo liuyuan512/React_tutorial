@@ -18,6 +18,8 @@ React.createElement( /* type */, /* props */, /* content */ );
 const element = React.creactElement('div',null,'hello world')
 ```
 
+{% video controls="controls" %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-2renderingui-2-1.mp4{% endvideo %}
+
 元素创建完毕以后，我们需要把这个元素渲染到浏览器
 
 ```
