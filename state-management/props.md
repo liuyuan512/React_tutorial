@@ -29,7 +29,7 @@ const contacts = [
 ```
 #确保两个服务器都在运行
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/v3hF0cyPo3M.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-3stateManagement-2-2.mp4{% endvideo %}
 
 [此视频中修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/664306f50a05aafe47f4109860e00593fcbf0321)
 
@@ -38,7 +38,7 @@ const contacts = [
 
  
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/qkKNrTUvGJU.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-3stateManagement-2-3.mp4{% endvideo %}
 [此视频中修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/eaa138af7d992f05449f524d514ac4224f736ae4)
 
 >###练习
@@ -49,7 +49,7 @@ const contacts = [
 - this.currentTime
 - this.props.currentTime
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/mnIuUk9cexA.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-3stateManagement-2-4.mp4{% endvideo %}
 [此视频中修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/43add2a640214483b00d9ca491990bb86104501e)
 
 >如果你电脑上的程序没有政策运行，检查你的两个服务器是否都有打开
