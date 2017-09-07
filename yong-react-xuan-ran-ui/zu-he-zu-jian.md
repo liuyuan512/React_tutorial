@@ -1,5 +1,5 @@
 #组件
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/-AVOIP-L7oo.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-2renderingui-4-1.mp4{% endvideo %}
 
 
 #组件的概念
@@ -9,7 +9,7 @@ React使用组件来封装界面模块，整个界面就是一个大组件，开
 ![](/assets/component.png)
 
 #将组件组合起来
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/PtospOO4qrs.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-2renderingui-4-2.mp4{% endvideo %}
 [视频中代码修改的地方](https://github.com/udacity/reactnd-contacts-complete/commit/069bbfa3f5359849d334a0f58813220291e61dc0)
 
 
