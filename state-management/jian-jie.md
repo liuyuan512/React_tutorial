@@ -6,8 +6,6 @@
 
 {% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-3stateManagement-1-1.mp4{% endvideo %}
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/W8kNdGxfS8A.mp4{% endvideo %}
-
 下面我们通过一起来做一个小应用，来理解和熟悉React中的各种概念，先看一下这个应用的各种功能
 
 {% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/Ju5mbCEFe9Q.mp4{% endvideo %}
