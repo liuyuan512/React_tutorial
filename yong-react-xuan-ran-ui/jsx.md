@@ -19,7 +19,7 @@ const element = React.createElement('div', null,
 
 
 ###下面我们把`React.createElement()`替换成JSX
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/h_rHa8mVyBk.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-2renderingui-2-5.mp4{% endvideo %}
 
 #练习
 >给一个JSX：
