@@ -15,7 +15,7 @@ const element = React.createElement('div', null,
 
 ###JSX的由来
 
-{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-2renderingui-2-3.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-2renderingui-2-4.mp4{% endvideo %}
 
 
 ###下面我们把`React.createElement()`替换成JSX
