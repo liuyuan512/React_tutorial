@@ -6,7 +6,7 @@
 
 ImageInput组件是一个自定义的<input>,它可以在以数据URL的形式提交给服务器之前，动态的读取和重新规定图片文件大小。它同样也可以看图片的预览。如果你有兴趣，可以深入研究一下这部分
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/8JjYl5r3wLk.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-5ManagingAppLocation-6-1.mp4{% endvideo %}
 [这里是视频里修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/09d3d6da0fa0e2c40c95c66d99d0a2d31323ae06)
 
 #序列化表单数据
@@ -17,11 +17,11 @@ ImageInput组件是一个自定义的<input>,它可以在以数据URL的形式�
 npm install --save form-serialize
 ```
 下面看一下具体怎么实现
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/nf17fXAaRVs.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-5ManagingAppLocation-6-2.mp4{% endvideo %}
 [视频中修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/554bab12367719b1526900ea27b8bb60237aba0d)
 
 #将新的联系人更新到服务器
 我们拿到了联系人表单。序列化数据以后将它传递到父组件。我们需要做的是有一个功能完整的app来保存联系人到服务器端。
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/hRTQp9pFr_c.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-5ManagingAppLocation-6-3.mp4{% endvideo %}
 [这里是视频里修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/6ea0a9abe23c06465447bc2b0366e6c794eaefbf)
 

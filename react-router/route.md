@@ -1,10 +1,10 @@
 #Route组件
 
 我们最后需要的组件就是`Route`
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/NlHLfRb6T_E.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-5ManagingAppLocation-5-1.mp4{% endvideo %}
 
 最后我们需要做的这一步就是让React Router来管理URL和UI
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/KsuuFWh1VAg.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-5ManagingAppLocation-5-2.mp4{% endvideo %}
 [这里是视频里修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/0c1056088f055e7f1046531142f56201d3f18cd6)
 
 #小结
