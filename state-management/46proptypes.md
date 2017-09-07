@@ -8,7 +8,7 @@ npm install --save prop-types
 ```
 下面视频展示了如何使用
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/jorS3jX3ngo.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-3stateManagement-6-1.mp4{% endvideo %}
 [这里是视频中修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/a7f4728c61b539863b91752bfe21924eb81f3039)
 
 ##练习
