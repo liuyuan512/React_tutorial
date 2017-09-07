@@ -8,7 +8,7 @@
 
 下面我们通过一起来做一个小应用，来理解和熟悉React中的各种概念，先看一下这个应用的各种功能
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/Ju5mbCEFe9Q.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-3stateManagement-1-2.mp4{% endvideo %}
 
 #移除默认文件
 `Create React App`会自动产生一些默认文件。这里提供两种方式来删除默认的文件，并且添加上这里提供给你的文件。你可以选择自己一步步手动添加，也可以克隆这个[this repo](https://github.com/udacity/reactnd-contacts-complete)并且记得chekout这个`starter-files-added`分支，这样你就不用手动操作了。
