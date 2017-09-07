@@ -2,7 +2,7 @@
 
 这里我需要做一个新的功能，就是添加一个联系人的功能。 但是我不想一次都把现有的联系人和需要添加联系人的表单都显示出来.这里我们会先通过控制state来控制页面的显示。
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/5ySqH5Uag2M.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-5ManagingAppLocation-2-1.mp4{% endvideo %}
 [视频里代码修改的地方](https://github.com/udacity/reactnd-contacts-complete/commit/db0aafdc7766048c28597d37f31977ac7833a62e)
 
 在这个视频里我们创建了一个CreateContact组件，它将控制创建新的联系人。
@@ -13,7 +13,7 @@
 
 现在我们不得不手动改变state来显示不同的内容。但是我们想要用户自己能够控制这个app,所以需要添加一个按钮
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/aOfohwGbL-A.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-5ManagingAppLocation-2-2.mp4{% endvideo %}
 [这里是视频中修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/23a6a4dde977d7c18a3054a7b0b65f4fb4aad2ea)
 
 #小结
