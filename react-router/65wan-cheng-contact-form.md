@@ -4,7 +4,7 @@
 >##要求的文件
 >在项目之处，你有选择克隆我们的starter 项目，或者用`create-react-app`从头开始自己写,如果你还没有添加这个文件[the ImageInput.js file](https://github.com/udacity/reactnd-contacts-complete/blob/master/src/ImageInput.js)，你需要添加上。
 
-ImageInput组件是一个自定义的<input>,它可以在以数据URL的形式提交给服务器之前，动态的读取和重新规定图片文件大小。它同样也可以看图片的预览。如果你有兴趣，可以深入研究一下这部分
+ImageInput组件是一个自定义的`<input>`,它可以在以数据URL的形式提交给服务器之前，动态的读取和重新规定图片文件大小。它同样也可以看图片的预览。如果你有兴趣，可以深入研究一下这部分
 
 {% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-5ManagingAppLocation-6-1.mp4{% endvideo %}
 [这里是视频里修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/09d3d6da0fa0e2c40c95c66d99d0a2d31323ae06)
