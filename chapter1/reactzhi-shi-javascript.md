@@ -2,10 +2,7 @@
 
 React其实就是普通的JavaScript。
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/FTSYIXx2R10.mp4{% endvideo%}
 {% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-1whyreact-5-1.mp4{% endvideo%}
-
-
 
 在过去的几年中，函数式编程对JavaScript生态系统和社区产生了巨大的影响。函数式编程是JavaScript中的一个高级主题，并且有数百本书籍。要深入了解功能编程的好处需要更加系统的学习函数式编程。而React建立在函数式编程技术的许多技术上。然而，有几个重要的JavaScript函数对于函数式编程至关重要，我们应该深入了解一下。它们是**.map（）**和**.filter（）**方法。
 下面深入看一下**.map()**和**.filter()**数组方法
