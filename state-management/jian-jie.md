@@ -3,8 +3,8 @@
 - Props------允许向组件内传递数据
 - Functional Components(函数式组件)---------创建React组件最直接的方式
 - Controlled Components(控制组件)----------绑定表单和组件状态
-{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-3stateManagement-1-1.mp4{% endvideo %}
 
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-3stateManagement-1-1.mp4{% endvideo %}
 
 {% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/W8kNdGxfS8A.mp4{% endvideo %}
 
