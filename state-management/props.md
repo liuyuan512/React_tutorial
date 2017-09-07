@@ -2,7 +2,7 @@
 
 父组件与子组件之间可以用props属性来相互通信
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/10YRWO2e7Y8.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-3stateManagement-2-1.mp4{% endvideo %}
 
 下个视频你需要复制的数组:
 ```js
