@@ -1,13 +1,13 @@
 #函数性组件
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/0R3WOH32jlg.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-3stateManagement-3-1.mp4{% endvideo %}
 
 对ES6不太熟悉的同学，可以点击这里[ES6 - JavaScript Improved](https://cn.udacity.com/course/es6-javascript-improved--ud356)，Udacity的免费课程。
 
 
 下面我们看看什么是Stateless Functional Components
 
-{% video %}https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/tTxLxl_Bk3Y.mp4{% endvideo %}
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-3stateManagement-3-2.mp4{% endvideo %}
 [视频中修改的代码](https://github.com/udacity/reactnd-contacts-complete/commit/e763785368c5d99281182f5d11e03b5ba02541e0)
 
 >###练习1
