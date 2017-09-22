@@ -1,3 +1,5 @@
+{% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-1whyreact-2-1.mp4{% endvideo%}
+
 #组合的益处
 组合仅仅是将简单的函数放在一起产生一个复杂的函数。也就是两个很关键的点
 - 简单的函数
