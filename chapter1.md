@@ -1,6 +1,5 @@
 {% video %}http://ovwbdgz95.bkt.clouddn.com/react-fundamental-1whyreact-1-1.mp4{% endvideo%}
 
-
 #React特殊在哪里
 在我们深入学习React之前，先看看看React的重要性。
 - 组合模式(compositional model)
